@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="title text-center">Pomodoro Clock</h1>
+      <div class="settings row center-block">
+        <div class="break-length col-lg-6 text-center">
+          <p>BREAK LENGTH</p>
+          <p>
+            <button id="min-break">-</button>
+            <span id="b-length">5</span>
+            <button id="plus-break">+</button>
+          </p>
+        </div>
+        <div class="session-length col-lg-6 text-center">
+          <p>SESSION LENGTH</p>
+          <p>
+            <button id="min-session">-</button>
+            <span id="s-length">25</span>
+            <button id="plus-session">+</button>
+          </p>
+        </div>
+      </div>
+      <div id="pomodoro" class="pomodoro text-center center-block" href="#">
+        <p id="session">Session</p>
+        <p id="time">25:00</p>
+      </div>
+      <br />
+      <button id='reset' class="btn btn-primary text-center center-block">RESET</button>
+      <br />
+    </div>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>

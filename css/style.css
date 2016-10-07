@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Archivo+Narrow|Oswald|Pattaya';
+body {
+  background-color: #333333;
+  color: white;
+  font-family: 'Oswald', serif;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.settings {
+  font-size: 20px;
+}
+
+.break-length {}
+
+.session-length {}
+
+.pomodoro {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px dashed red;
+  font-size: 45px;
+  padding-top: 15px;
+  cursor: pointer;
+  box-shadow: 9px 7px 5px 0px black;
+}
+
+.started {
+  border: 10px dashed green;
+}
+
+.pomodoro-break {
+  border: 10px dashed orange;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 25px;
+  font-family: cursive;
+}
